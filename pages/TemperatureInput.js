@@ -1,4 +1,10 @@
 import BoilingVerdict from './BoilingVerdict';
+import React from 'react';
+
+const scaleName = {
+    c:'Celsius',
+    f:'Fahrenheit'
+}
 
 class TemperatureInput extends React.Component{
     constructor(props){

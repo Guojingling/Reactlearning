@@ -2,15 +2,6 @@ import React from 'react';
 
 import TemperatureInput from './TemperatureInput';
 
-
-
-const scaleName = {
-    c:'Celsius',
-    f:'Fahrenheit'
-}
-
-
-
 class Calculator extends React.Component{
     constructor(props){
         super(props);
